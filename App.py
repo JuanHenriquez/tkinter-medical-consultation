@@ -24,4 +24,5 @@ top_frame.pack(side = TOP)
 bottom_frame = Frame(root, bg = Gui.color_text, width = 600, height = 300)
 bottom_frame.pack(side = BOTTOM)
 
+ventana_registro.withdraw()
 root.mainloop()
