@@ -1,16 +1,7 @@
 #_*_coding:UTF-8_*_
 from tkinter import *
 
-# Colores:
-color_text           = "#FFFFFF"
-color_dark_primary   = "#455A64"
-color_primary        = "#607D8B"
-color_accent         = "#00BCD4"
-color_primary_text   = "#212121"
-color_secundary_text = "#727272"
-
-
-# Lista de Medicamentos:
+# Lista de Tratamientos:
 
 lista_tratamientos = [
     { 'nombre': 'Vacio', 'precio': 0 },
@@ -51,3 +42,8 @@ def total_cita(paciente, numero_cita):
         paciente['total_cita'] = 3000
     else:
         paciente['total_cita'] = 2000
+
+# Otros Datos:
+
+description_text = 'Puede apartar su cita ya mismo haciendo click en el menu "Paciente" '\
+                    'de la parte de arriba!'
